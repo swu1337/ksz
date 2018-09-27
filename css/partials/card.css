@@ -2,17 +2,19 @@
     display: flex;
     width: 100%;
     flex-direction: column;
+    background-color: beige;
 }
 
 .card-subject {
     text-transform: uppercase;
     font-size: 28px;
+    padding: 15px;
 }
 
 .card {
     width: 100%;
     height: 190px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .card-image {
@@ -23,7 +25,13 @@
 }
 
 .card-title {
-    padding: 10px 0;
+    font-size: 24px;
+    padding: 15px 0 7px 15px;
+}
+
+.card-paragraph {
+    line-height: 22px;
+    padding: 15px;
 }
 
 .card-link {
