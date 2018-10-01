@@ -1,6 +1,7 @@
 @import url("partials/card.css");
 @import url("partials/footer.css");
 @import url("partials/header.css");
+@import url("partials/navigation.css");
 
 :root {
     --orange: #EFA335;
@@ -23,6 +24,7 @@ h1, h2, h3, h4, h5 {
     padding: 0;
     font-family: 'Raleway', sans-serif;
     font-weight: var(--semibold);
+    letter-spacing: 2px;
 }
 
 ul {
