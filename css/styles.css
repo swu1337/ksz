@@ -12,7 +12,6 @@
 
     --medium: 500;
     --semibold: 600;
-
 }
 
 * { 
@@ -42,6 +41,38 @@ body {
     margin: 0 auto;
     grid-template-columns: 1fr;
     grid-row-gap: 50px;
+    grid-template-areas: 
+        "header"
+        "team"
+        "passie"
+        "blogs"
+        "nieuwsarchief"
+        "footer"
+}
+
+/*Grid areas*/
+.header {
+    grid-area: header;
+}
+
+footer {
+    grid-area: footer;
+}
+
+.blogs {
+    grid-area: blogs;
+}
+
+.nieuwsarchief {
+    grid-area: nieuwsarchief;
+}
+
+.team {
+    grid-area: team;
+}
+
+.passie {
+    grid-area: passie;
 }
 
 .team {
@@ -64,6 +95,7 @@ body {
 .banner {
     margin-top: 10px;
 }
+
 .passie h2 {
     text-transform: uppercase;
     font-size: 26px;
