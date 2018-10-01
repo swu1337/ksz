@@ -2,6 +2,12 @@ footer {
     display: flex;
     font-size: 17px;
     flex-direction: column;
+    background-color: var(--yellow);
+}
+
+footer .contact {
+    font-size: 18px;
+    padding: 20px 15px 0 15px;
 }
 
 footer .contact * {
@@ -18,36 +24,44 @@ footer div {
     align-items: center;
 }
 
-footer .contact p:nth-of-type(2) {
+footer .contact > p:nth-of-type(1) {
     padding-left: 39px;
 }
 
-footer .contact p.footer-title {
-    padding-bottom: 10px;
+footer .contact h2.footer-title {
+    padding-bottom: 15px;
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
-    font-weight: bold;
+    font-size: 20px;
 }
 
-footer section .vragen {
-    padding: 15px 0 30px 0;
+footer .contact i {
+    color: var(--beige);
 }
 
 footer .contact section button {
     display: flex;
     align-items: center;
     padding: 8px 40px;
-    background-color: black; 
-    color: white;
+    background-color: var(--beige); 
+    color: black;
     border:none;
     border-radius: 25px;
     margin: 0 auto;
 }
 
+footer .contact section button i {
+    color: black;
+}
+
+footer section .vragen {
+    padding: 25px 0 15px 0;
+}
+
 footer .socials {
     display: flex;
     justify-content: center;
-    margin: 20px 0;
+    margin: 35px 0 8px 0;
 }
 
 footer a {
@@ -58,7 +72,7 @@ footer .socials div {
     width: 55px;
     height: 55px;
     border-radius: 50%;
-    background-color: black;
+    background-color: var(--beige);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,5 +81,5 @@ footer .socials div {
 
 footer .socials i {
     font-size: 26px;
-    color:white;
+    color: black;
 }
