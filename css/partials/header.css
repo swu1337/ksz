@@ -1,0 +1,24 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 90px;
+    padding-top: 10px;
+}
+
+.logo > img {
+    width: 100%;
+    height: auto; 
+}
+
+.menu-icn {
+    font-size: 46px;
+    color: var(--orange);
+}
+
+.menu {
+    cursor: pointer;
+}
