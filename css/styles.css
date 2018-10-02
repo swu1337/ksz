@@ -1,9 +1,3 @@
-@import url("partials/card.css");
-@import url("partials/footer.css");
-@import url("partials/header.css");
-@import url("partials/navigation.css");
-@import url("mediaqueries.css");
-
 :root {
     --orange: #EFA335;
     --brown: #5E3700;
