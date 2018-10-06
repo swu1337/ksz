@@ -1,5 +1,5 @@
 @media only screen and (max-height: 500px) {
-    /*Navigation*/ /*Lanscape*/
+/*Navigation*/ /*Lanscape*/
     nav ul {
         flex-direction: row;
         flex-wrap: wrap;
@@ -18,9 +18,9 @@
         height: initial;
     }
 }
+
 /*Tablet*/
 @media only screen and (min-width: 768px) {
-
     .container {
         grid-column-gap: 15px;
         width: 96%;
@@ -30,6 +30,72 @@
         "team passie"
         "blogs nieuwsarchief"
         "footer footer"
+    }
+
+    .logo {
+        width: 110px;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .passie h2 {
+        font-size: 30px;
+    }
+
+    .card-subject {
+        font-size: 32px;
+    }
+
+    .card-paragraph {
+        line-height: 26px;
+        font-size: 17px;
+    }
+
+    .card-link {
+        font-size: 14px;
+    }
+
+    footer > section  {
+        flex-direction: row;
+    }
+
+    footer h2.footer-title {
+        font-size: 24px;
+    }
+
+    footer .contact, footer .socials {
+        font-size: 22px;
+        width: 50%;
+    }
+
+    footer .contact i {
+        font-size: 30px;
+    }
+
+    footer .contact > p:nth-of-type(1) {
+        padding-left: 44px;
+    }
+
+    footer .email {
+        padding-top: 6px;
+    }
+
+    footer .email .vragen {
+        padding: 0 12px 25px 12px;
+    }
+
+    /*Navigation*/
+    nav ul li a {
+        margin: 20px 100px;
+        padding: 20px 0;
+        font-size: 28px;
+        border-width: 4px;
+    }
+
+    nav ul {
+        height: calc(100vh - 110px);
     }
 }
 
