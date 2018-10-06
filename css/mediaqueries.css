@@ -35,7 +35,7 @@
     /* Navigation-End*/
 
     .container {
-        grid-column-gap: 15px;
+        grid-column-gap: 16px;
         width: 96%;
         grid-template-columns: 1fr 1fr;
         grid-template-areas: 
@@ -137,12 +137,16 @@
     
     .container {
         width: 98%;
-        grid-template-columns: 60% 40%;
+        grid-template-columns: calc(60% - 8px) calc(40% - 8px);
         grid-template-areas: 
         "header header"
         "team blogs"
         "passie nieuwsarchief"
         "footer footer"
+    }
+
+    .hide {
+        display: initial;
     }
 }
 
