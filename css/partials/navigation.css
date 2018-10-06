@@ -1,3 +1,7 @@
+.menu {
+    display: initial;
+}
+
 nav {
     width: 100%;
     max-height: 0;
@@ -27,6 +31,11 @@ nav ul li a {
     font-weight: var(--medium);
     color: var(--brown);
     letter-spacing: 3px;
+}
+
+nav ul li a:hover {
+    border-bottom: 3px solid var(--orange);
+    cursor: pointer;
 }
 
 nav.open {

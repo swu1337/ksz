@@ -21,6 +21,19 @@
 
 /*Tablet*/
 @media only screen and (min-width: 768px) {
+    /*Navigation-Start*/
+    nav ul li a {
+        margin: 20px 100px;
+        padding: 20px 0;
+        font-size: 28px;
+        border-width: 4px;
+    }
+
+    nav ul {
+        height: calc(100vh - 110px);
+    }
+    /* Navigation-End*/
+
     .container {
         grid-column-gap: 15px;
         width: 96%;
@@ -85,24 +98,51 @@
     footer .email .vragen {
         padding: 0 12px 25px 12px;
     }
-
-    /*Navigation*/
-    nav ul li a {
-        margin: 20px 100px;
-        padding: 20px 0;
-        font-size: 28px;
-        border-width: 4px;
-    }
-
-    nav ul {
-        height: calc(100vh - 110px);
-    }
 }
 
 /*Laptop*/
 @media only screen and (min-width: 1366px) {
-    body {
-        background-color: blue;
+    /*Navigation-Start*/
+
+    .header {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    nav {
+        max-height: initial;
+    }
+
+    nav ul {
+        height: initial;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    nav ul li {
+        margin: 0 20px;
+    }
+
+    nav ul li a {
+        margin: initial;
+        padding: 5px 0;
+        border: 0;
+        font-size: 20px;
+    }
+    /*Navigation-End*/
+    
+    .container {
+        width: 98%;
+        grid-template-columns: 60% 40%;
+        grid-template-areas: 
+        "header header"
+        "team blogs"
+        "passie nieuwsarchief"
+        "footer footer"
     }
 }
 
