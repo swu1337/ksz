@@ -52,7 +52,7 @@ footer .email {
 footer .email button {
     display: flex;
     align-items: center;
-    padding: 11px 35px;
+    padding: 11px 38px;
     background-color: var(--beige); 
     color: black;
     border:none;
@@ -63,8 +63,13 @@ footer .email button {
 }
 
 footer .email button i {
-    color: black;
     padding-right: 7px;
+}
+
+footer .email button:hover { 
+    cursor: pointer;
+    background-color:  black;
+    color: white;
 }
 
 footer .email .vragen {
@@ -92,11 +97,11 @@ footer .socials div {
     justify-content: center;
     align-items: center;
     margin: 15px;
+    color: black;
 }
 
-footer .socials i {
+footer .socials a i {
     font-size: 28px;
-    color: black;
 }
 
 footer > p {

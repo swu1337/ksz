@@ -37,7 +37,13 @@
                 </nav>
             </header>
             <figure class="team">
-                <img src="img/team.jpg" alt="photo of team" class="team-photo" />
+                <picture>
+                    <source media="(min-width: 1367px)" srcset="img/team-desktop.png">
+                    <source media="(min-width: 769px)" srcset="img/team-laptop.png">
+                    <source media="(min-width: 361px)" srcset="img/team-tablet.png">
+                    <img src="img/team.png" class="team-photo" alt="Team van kaasspeciaakzaak">
+                </picture>
+                <!-- <img src="img/team.png" alt="photo of team" class="team-photo" /> -->
                 <figcaption>Ons team bij het ontvangen van de trofee voor de Beste Buitenlandse Kaasspecialist 2016-2017. Van links naar rechts: Nicole, Denise, Annet, Ed, Fleur en Maria.</figcaption>
             </figure>
             <section class="passie">
