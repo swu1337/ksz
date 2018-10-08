@@ -128,11 +128,13 @@
     }
 
     nav ul li a {
+        display: block;
         font-family: 'Raleway';
         margin: initial;
         padding: 5px 0;
         border: 0;
         font-size: 20px;
+        border-bottom: 3px solid transparent
     }
     /*Navigation-End*/
     
