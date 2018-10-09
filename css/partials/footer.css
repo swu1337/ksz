@@ -59,11 +59,12 @@ footer .email button {
     border-radius: 30px;
     margin: 0 auto;
     text-transform: uppercase;
-    font-weight: var(--semibold);
+    font-size: 16px;
 }
 
 footer .email button i {
-    padding-right: 7px;
+    padding-right: 8px;
+    font-size: 26px;
 }
 
 footer .email button:hover { 
